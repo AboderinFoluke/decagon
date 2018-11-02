@@ -1,0 +1,7 @@
+function games(P,C){
+  if ((P/2) >= C){
+    return C;
+  }else{
+    return Math.floor(P/2);
+  }
+}
